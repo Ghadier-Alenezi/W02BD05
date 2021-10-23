@@ -1,15 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-#allPage{
-
+h1 {
+  color: white;
+  margin: 10px;
 }
-
-header,form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#list- {
+  color: white;
+  text-decoration: line-through;
+}
+.allPage {
+  background-color: rgb(36, 36, 36);
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+#completedTask {
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  font-size: x-large;
+}
+li {
+  list-style: none;
+  background-color: white;
+  margin: 0;
+  margin: 8px;
+  padding: 5px;
+  font-size: large;
+}
+li:hover{
+    background-color: lightgray;
+}
+.footer {
+  margin: 10px;
+  justify-content: space-between;
+}
+#addBtn,
+#clearAllBtn,
+#clearCompleteBtn{
+    background-color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    font-size: large;
+}
+#inputAdd{
+    height: 30px;
+    width: 300px;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 5px;
 }

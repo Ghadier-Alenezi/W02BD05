@@ -10,23 +10,24 @@
 
     <head> </head>
   </head>
-  <body id="allPage">
+  <body>
+    <div class="allPage">
+    <div class="title">
       <h1>To Do List</h1>
-    <input  id="input1" placeholder="your new task..." />
+    <input  id="inputAdd" placeholder="New Task..." />
     <button id="addBtn" >Add to list</button>
-
-    <div class="todoContainer">
-        <ul class="todoList"></ul>
-
-        <li class="newTask"></li>
-
-        <p>You have (0) todos</p>
+  </div>
+    <div id="listDiv">
+        <ul id="myList"></ul>
     </ul>
     </div>
+<div class="footer">
+  <p id="completedTask">You have (0) todos</p>
 
-    <button id="clearBtn">Clear List</button>
-    <button id="comoleteBtn">Clear Completed</button>
-
+    <button id="clearAllBtn">Clear List</button>
+    <button id="clearCompleteBtn">Clear Completed</button>
+  </div>
+</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="./main.js"></script>
   </body>
